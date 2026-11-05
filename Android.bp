@@ -172,3 +172,12 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
 }
+
+android_app_import {
+    name: "MiuiCamera",
+    owner: "xiaomi",
+    apk: "proprietary/product/priv-app/MiuiCamera/MiuiCamera.apk",
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+}
