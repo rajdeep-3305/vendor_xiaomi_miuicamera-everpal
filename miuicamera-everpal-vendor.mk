@@ -13,5 +13,5 @@ PRODUCT_PACKAGES += \
     libcamera_mianode_jni.xiaomi \
     libmtkisp_metadata_sys \
     libgui_shim_miuicamera \
-    vendor.mediatek.hardware.camera.isphal@1.0 \
+    vendor.mediatek.hardware.camera.isphal@1.0_miuicamera \
     MiuiCamera
