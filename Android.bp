@@ -178,7 +178,13 @@ android_app_import {
     name: "MiuiCamera",
     owner: "xiaomi",
     apk: "proprietary/product/priv-app/MiuiCamera/MiuiCamera.apk",
+    overrides: [
+        "Aperture",
+    ],
     certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
     privileged: true,
     system_ext_specific: true,
 }
